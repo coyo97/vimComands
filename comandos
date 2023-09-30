@@ -1,0 +1,5 @@
+			PARA ALGUNO DE ESTOS COMANDOS DEBE HABER HECHO LA CONFIGURACION
+
+1.configurado. para abrir una ventana en vim a lado derecho...:    :vsplit test       
+2. configurado. z para explorar los archivos  y :q para salir
+3. plugin. F3 para dezplazar el arbol de directorio

@@ -1,0 +1,5 @@
+1. tener instalado git, curl
+2. crear directorio mkdir -v bundle denctro de la carpeta .vim
+3. clonar el repositorio: git clone git clone https://github.com/gmarik/Vundle.vim.git /home/coyo/.vim/bundle/Vundle.vim:
+
+

@@ -1,0 +1,10 @@
+1. creamos el directorio    mkdir -v .vim        cd .vim
+----vim ya tiene configuraciones por defecto pero no se recomienda edatar estos archivos, para ello creamos nuetras propia
+2. crearemos nuestro propio vimrc       vim vimrc
+3. instera tus configuraciones
+4. guardar, luego ejeucta dentro de vim :source vimrc, en el mismo archivo
+
+
+
+
+
