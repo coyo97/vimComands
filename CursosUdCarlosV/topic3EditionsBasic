@@ -12,6 +12,33 @@ delete comple word, cursor beginning word--> d w    incrementally--> n d w where
 delete complete word--> d i w
 		
 		CHANGE CHARACTER AN WORDS
+delete word and insert--> c w				incrementally----> n c w      n=1,2,3,---n    pendig video 9 chapert3
+delete word in cursor position any and inser--->  c i w   incrementally---> n c i w     where n=1,2,3,4,5.....
+delete charater and isert---->  s
+replace charater with another---> r caracter to enter       example: r a    hola ---->result hala   
+delete and insert words in parenthesis()--> c i (   example: (hola como estas)-----result  ()		|
+delete and insert words in keys {}--> c i {		example: {hola como esstas}---> result {}			|
+delete and insert words in brackets []--> c i [    example: [hola como estas]----> result []		|the cursor must be inside
+delete and insert words in quate '' ---> c i '    example: 'hola como estas'----> result ''			|
+delete and insert words in quate "" ---> c i " 														|
+delete more parenthesis ()----> d a (   example: (hola como estas) ----->result:    nothing		|
+						{}----> d a {															|	
+						[]----> d a [															|reuslt nothing
+						''----> d a '															|
+						""----> d a "															|
+
+		DELETE AND CHANGE LINE
+delete a line--> d d  and incrementally---> n d d     where n=1,2,3,...
+delete and inserte line--> c c incrementally---> n c c where n=1,2,3....
+
+		CUT, COPY, PASTE
+mark text--> v						copy=y paste=p
+mark text line complete--> V
+mark text and copy--> v mark the text and copy  y
+mark text and copy and paste--->v  mark y  and paste p
+copy line complete--> y y   incrementally--> n y y   where n=1,2,3,...
+copy word---> y w    incrementally---> n y w      where n=1,2,3,....
+delete line y same copy line----> d d  and for  paste line delete is--->p
 
 
-
+			d a (
