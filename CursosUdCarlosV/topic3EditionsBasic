@@ -1,0 +1,17 @@
+		line and column heghlighting
+:set cursorcolumn      serves a lot         to remove :set cursorcolumn!  or :set nocursorline
+:set cursorline			serves a lot
+		
+		BASIC WAYS TO INSERT
+go to the end of the line and inser (right)---> A       and left--> I
+insert on line down--> o       and up--> O
+
+		delete charater and word
+delete right--> x    incrementally--> n x   where n=1,2,3,4...
+delete comple word, cursor beginning word--> d w    incrementally--> n d w where n=1,2,3,4...
+delete complete word--> d i w
+		
+		CHANGE CHARACTER AN WORDS
+
+
+

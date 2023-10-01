@@ -1,0 +1,38 @@
+
+		 COMMANDS
+preciona mayuscula Z dos veces, el cual hara la misma funcion que :x
+
+al precionar ctrl z se suspende la  sesion, se sale de vim y volever a entrar no esta tu contenido: peros solo se supendio
+para recuperarlo o volover a la sesion preciona en la terminal del sistema "fg"
+ctrl g muestra la nombre del fichero en que estamos trabajando
+
+			VISUAL MODALITY
+*instead on entering	"vim file" enter "vienw file"
+*in this mode it doesn't let us save but we can force   :w!
+
+			CURSOR MOVEMENT
+H,J,K,L.   h=left, l=right, j=down and h=up ........... n=1,2,3,4,5,6,..N
+to go to the end: G
+go to the beginnig of the word (right)--> w      and left--> b
+						N times--> 5  w        and n=1,2,3,4,5,6,7,8...N
+go to the end of the word: e
+						N times--> 7 e      and n=1,2,3,4,3,...N
+to go the end of the line---> $
+						N---->5 $    and n=1.2.3..N
+to go the beginning of the line--> 0
+						does not have for 0
+
+			CURSOR MOVEMENT TWO
+search by charater on a line (right)--> f and character to search, example "b" other example " " space character, and left--> F
+						N----> 7 f character to search, example "a"
+search    character-1 position (right)---> t charater     and left---> T character
+			
+			CURSOR MOVEMENT THRE
+set number, set number!
+to move to a specific line----> n G   where n=1,2,3,4,5,6...n, example-->10 G. 	
+					other form mode command-->  :n      example-->   :10
+scroll---> crtl e=down   and ctrl y=up
+	taster way-->crtl d=down  and crtl u=up
+	move through each empty line--> up={    and down=}   incrementally---> n{   and  n}  n=1,2,3,4...
+	
+	
